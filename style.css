@@ -1,5 +1,5 @@
 header {
-    background-color: #000000;
+    background-color: #f6f6f6;
 }
 .caja{
     width: 940px;
@@ -8,28 +8,41 @@ header {
     margin: 0 auto;
 }
 body{
-    background: #A68C6D;
+    background: #fbfbfb;
 }
-#logo{
-    height: 100px;
+.titulo-principal{
+    color: #a9c484;
+    position:absolute;
+    top: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
 }
 nav{
     position: absolute;
-    top:30px;
-    right: 0;
+    top: 20px;
+    right: 60px;
 }
 
 nav li{
-    display: inline;
+    display: inline-block;
     margin: 0 0 0 15px;
 }
 
 nav a{
     text-transform: uppercase;
-    color: #F2CF8D;
+    color: #a9c484;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
+}
+
+#perfil{
+    position: relative;
+    width: 155px;
+    left: 355px;
+    bottom: 90px;
+    filter: drop-shadow(5px 0px 3px rgba(0, 0, 0, 0.6));
 }
 
 .baner-container {
@@ -41,13 +54,8 @@ nav a{
 .banner {
     margin: 1em auto;
     width: 100%;
-    height: auto;
-    transition: 400ms;
+    height: 650px;
     box-shadow: 10px 10px 30px 15px #000000;
-}
-
-.banner:hover {
-    opacity: 30%
 }
 
 .introduction {
@@ -63,4 +71,84 @@ nav a{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.titulo-general{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
 
+.paquetes{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.paquetes-lista li{
+    display: inline-block;
+    width: 295px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+   
+}
+
+.imagenes-paquetes{
+    width: 290px;
+    height: 480px;
+}
+
+/*
+
+.paquetes-lista li:hover{
+    border-color:#c78c19;
+}
+
+.paquetes-lista li:active{
+    border-color:#088c19;
+}
+
+.paquetes-lista h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.paquetes-lista li:hover h2{
+    font-size: 33px;
+}
+
+.paquete-descripcion{
+    font-size: 18px;
+}
+
+.paquete-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+*/
+
+footer{
+    text-align: center;
+    height: 150px;
+    background-color: #000000;
+    padding:40px;
+}
+
+.logo{
+    position: relative;
+    margin: 0 auto;
+    bottom: 30px;
+    width: 200px;
+}
+
+footer p{
+    position: relative;
+    bottom: 36px;
+    color: #f6f6f6;
+    font-size: 10px;
+}
