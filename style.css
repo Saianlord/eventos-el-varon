@@ -1,0 +1,66 @@
+header {
+    background-color: #000000;
+}
+.caja{
+    width: 940px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+body{
+    background: #A68C6D;
+}
+#logo{
+    height: 100px;
+}
+nav{
+    position: absolute;
+    top:30px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #F2CF8D;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.baner-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; 
+}
+
+.banner {
+    margin: 1em auto;
+    width: 100%;
+    height: auto;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.banner:hover {
+    opacity: 30%
+}
+
+.introduction {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 80px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+

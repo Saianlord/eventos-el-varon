@@ -1,11 +1,6 @@
-<h1> Sistema de Registro</h1>
+<h1> Página de eventos el varón</h1>
 
-- Estado del proyecto: En construcción.
+- Estado del proyecto: en construcción
 
-Para ejecutar el sistema, debes poner:
-
-```npm install react```
-
-Sistema de registro 2
-
-Sistema de registro 3
+Concepto:
+Una página para una organizadora de eventos. 
