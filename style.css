@@ -119,35 +119,29 @@ nav a{
     margin: 0 auto;
 }
 
-/*
-
 .paquetes-lista li:hover{
     border-color:#c78c19;
 }
 
-.paquetes-lista li:active{
-    border-color:#088c19;
+.boton{
+    margin: 20px auto;
+    text-align: center;
+}
+#boton-paquete{
+    width: 200px;
+    height: 60px;
+    background-color: transparent; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    font-size: 16px;
 }
 
-.paquetes-lista h2{
-    font-size: 30px;
-    font-weight: bold;
+#boton-paquete:hover{
+    font-size: 15px;
+    border-color:#c78c19;
 }
-
-.paquetes-lista li:hover h2{
-    font-size: 33px;
-}
-
-.paquete-descripcion{
-    font-size: 18px;
-}
-
-.paquete-precio{
-    font-size: 20px;
-    font-weight: bold;
-    margin-top:10px;
-}
-*/
 
 footer{
     text-align: center;
