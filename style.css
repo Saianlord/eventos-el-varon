@@ -1,5 +1,5 @@
 header {
-    background-color: #f6f6f6;
+    background-color: #BBBBBB;
 }
 .caja{
     width: 940px;
@@ -7,11 +7,17 @@ header {
     position: relative;
     margin: 0 auto;
 }
+
+nav a:hover{
+    
+    text-decoration: underline #87733D; 
+}
+
 body{
-    background: #fbfbfb;
+    background: #BBBBBB;
 }
 .titulo-principal{
-    color: #a9c484;
+    color: #87733D;
     position:absolute;
     top: 1px;
     font-weight: bold;
@@ -31,7 +37,7 @@ nav li{
 
 nav a{
     text-transform: uppercase;
-    color: #a9c484;
+    color: #87733D;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
@@ -48,14 +54,14 @@ nav a{
 .baner-container {
     position: relative;
     width: 100%;
-    max-width: 800px; 
+    max-width: 500px; 
 }
 
 .banner {
     margin: 1em auto;
     width: 100%;
-    height: 650px;
-    box-shadow: 10px 10px 30px 15px #000000;
+    height: 500px;
+    border-radius: 10px;
 }
 
 .introduction {
@@ -64,11 +70,12 @@ nav a{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    padding: 80px;
-    border-radius: 5px;
+    padding: 40px;
+    border-radius: 10px;
     font-size: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px; 
 }
 
 .titulo-general{
@@ -93,13 +100,23 @@ nav a{
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
-
-   
 }
 
 .imagenes-paquetes{
-    width: 290px;
-    height: 480px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
 }
 
 /*
