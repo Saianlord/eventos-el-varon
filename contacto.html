@@ -7,19 +7,10 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <header class="cabeza-contacto">
-
-        <div class="box-contacto">
-
-         <h1 class="title-contacto"></h1>
-
-            <section class="banner-contacto">
-
-                <img class="contacto" src="img/varon.jpg"></h1>
-            
-            </section>
-            
-            <nav class="opcions">
+    <header>
+        <div class="caja">
+                <h1 class="titulo-principal">Eventos el varón</h1>
+            <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="productos.html">Productos</a></li>
@@ -27,10 +18,73 @@
                 </ul>
             </nav>
         </div>
-
+    
     </header>
     <body>
         <main>
+            <section class="servicios">
+
+                <h3 class="titulo-general">Servicios disponibles</h3>
+                <div>
+                    <ul class="servicios-lista">
+                        <li>
+                            <h2>Disco móvil</h2>
+                            <img class="imagenes-servicios" src="img/dj.jpg">
+                            <p class="paquete-descripcion">Ofrecemos distintos paquetes para una boda inolvidable</p>
+                            <button onclick="agregarServicio('Disco móvil', this)" class="button" id="add-dj">Añadir servicio</button>
+                            <button onclick="removerServicio('Disco móvil', this)" class="button" id="remove-dj" style="display: none;">Remover servicio</button>
+
+                        </li>
+                        <li>
+                            <h2>Maestro de ceremonias</h2>
+                            <img class="imagenes-servicios" src="img/mc.jpeg">
+                            <p class="paquete-descripcion">Ofrecemos mas de 2 paquetes para aquellas celebraciones especiales</p>
+                            <button onclick="agregarServicio('Maestro de ceremonias', this)" class="button" id="add-mc">Añadir servicio</button>
+                            <button onclick="removerServicio('Maestro de ceremonias', this)" class="button" id="remove-mc" style="display: none;">Remover servicio</button>
+
+                        </li>
+                        <li>
+                            <h2>Decoración</h2>
+                            <img class="imagenes-servicios" src="img/decoracion.jpg">
+                            <p class="paquete-descripcion">Ofrecemos paquetes para celebrar aquellos logros alcanzados</p>
+                            <button onclick="agregarServicio('Decoración', this)" class="button" id="add-decoracion">Añadir servicio</button>
+                            <button onclick="removerServicio('Decoración', this)" class="button" id="remove-decoracion" style="display: none;">Remover servicio</button>
+
+                        </li>
+
+                        <li>
+                            <h2>Sillas</h2>
+                            <img class="imagenes-servicios" src="img/sillas.jpeg">
+                            <p class="paquete-descripcion">Ofrecemos paquetes para celebrar aquellos logros alcanzados</p>
+                            <button onclick="agregarServicio('Sillas', this)" class="button" id="add-sillas">Añadir servicio</button>
+                            <button onclick="removerServicio('Sillas', this)" class="button" id="remove-sillas" style="display: none;">Remover servicio</button>
+
+                        </li>
+
+                        <li>
+                            <h2>Comparsa</h2>
+                            <img class="imagenes-servicios" src="img/Comparsa.jpeg">
+                            <p class="paquete-descripcion">Ofrecemos paquetes para celebrar aquellos logros alcanzados</p>
+                            <button onclick="agregarServicio('Comparsa', this)" class="button" id="add-comparsa">Añadir servicio</button>
+                            <button onclick="removerServicio('Comparsa', this)" class="button" id="remove-comparsa" style="display: none;">Remover servicio</button>
+
+                        </li>
+
+
+                        <li>
+                            <h2>Photobooth</h2>
+                            <img class="imagenes-servicios" src="img/photobooth.png">
+                            <p class="paquete-descripcion">Ofrecemos paquetes para celebrar aquellos logros alcanzados</p>
+                            <button onclick="agregarServicio('Photobooth', this)" class="button" id="add-photobooth">Añadir servicio</button>
+                            <button onclick="removerServicio('Photobooth', this)" class="button" id="remove-Photobooth" style="display: none;">Remover servicio</button>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+
+                
             <form>
                     <div class="input-container">
                     <label for="correoelectronico">Correo Electrónico</label>
@@ -49,10 +103,14 @@
                   <label for="mensaje">Mensaje</label>
                   <textarea cols="70" rows="10" id="mensaje"class="input-padron" required></textarea> 
 
-                  <img class="centro-mesa" src="img/centro-mesa.jpg">
+                  <div class="imagen-container">
+                    <img class="centro-mesa" src="img/centro-mesa.jpg">
                     <p class="motivacion">La vida está llena de momentos dignos de celebración. Cada evento es una oportunidad para crear recuerdos que perdurarán toda la vida. ¡Acompáñanos en la emocionante aventura de celebrar juntos momentos inolvidables!</p>
+                  </div>
+                  
             </form>
         </main>
         
     </body>
+    <script src="app.js"></script>
 </html>

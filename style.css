@@ -9,10 +9,6 @@ header {
     margin: 0 auto;
 }
 
-nav a:hover{
-    
-    text-decoration: underline #87733D; 
-}
 
 body{
     background: #BBBBBB;
@@ -42,6 +38,9 @@ nav a{
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline #87733D; 
 }
 
 #perfil{
@@ -187,13 +186,32 @@ footer p{
     color: #f6f6f6;
     font-size: 10px;
 }
+
 /*CSS de página contacto*/
 
-.banner-contacto {
-    position: relative;
-    width: 100%;
-    max-width: 500px; 
+.servicios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
+
+
+.servicios-lista li{
+    display: inline-block;
+    margin: 35px;
+    width: 340px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.imagenes-servicios{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
 
 .contacto {
     margin: 4em auto;
@@ -249,6 +267,11 @@ form label, form legend{
     width: 50%;
     border-radius: 20px;
     border: none;
+}
+
+.imagen-container{
+    position: relative;
+    top: 100px;
 }
 
 .centro-mesa{
