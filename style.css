@@ -233,13 +233,13 @@ form label, form legend{
 
 .form-container {
     display: inline-block;
-    vertical-align: top; /* Alinea el formulario y la imagen verticalmente */
+    vertical-align: top; 
     margin-right: 20px;
 }
 
 .form-container {
     display: inline-block;
-    vertical-align: top; /* Alinea el formulario y la imagen verticalmente */
+    vertical-align: top; 
     margin-right: 20px;
 }
 
@@ -288,3 +288,61 @@ form label, form legend{
     font-size: 24px;
 }
 
+/*Botones de contacto (agregar y remover)*/
+
+.agregar,.remover {
+    margin-right: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 10px;
+    align-items: center;
+    background-color: transparent; 
+    color: black; 
+    cursor: pointer;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    border: 2px solid black; 
+    transition: color 0.42s cubic-bezier(.25,.8,.25,1), border-color 0.42s cubic-bezier(.25,.8,.25,1); 
+}
+
+.agregar:hover {
+    color: white; 
+    border-color: white; 
+}
+
+.remover:hover {
+    color: red; 
+    border-color: red; 
+}
+
+.remover:before {
+    background-color: black;
+    color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-right: 10px;
+    transition: all .42s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+    transition: all .42s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+}
+
+.agregar:hover:before {
+    background-color: #fff;
+    width: 3rem;
+}
+.remover:hover:before {
+    background-color: red;
+    width: 3rem;
+}
