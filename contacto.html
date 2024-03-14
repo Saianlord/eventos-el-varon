@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Correo: iansacr12@gmail.com</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header class="cabeza-contacto">
+
+        <div class="box-contacto">
+
+         <h1 class="title-contacto"></h1>
+
+            <section class="banner-contacto">
+
+                <img class="contacto" src="img/varon.jpg"></h1>
+            
+            </section>
+            
+            <nav class="opcions">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <body>
+        <main>
+            <form>
+                    <div class="input-container">
+                    <label for="correoelectronico">Correo Electrónico</label>
+                    <input type="email" id="correoelectronico" class="input" required placeholder="email@dominio.com">
+                    </div>
+                
+                    <div class="input-container">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="input" required placeholder="(XXX) XXXX XXXX">
+                    </div>
+                
+
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+                
+                  <label for="mensaje">Mensaje</label>
+                  <textarea cols="70" rows="10" id="mensaje"class="input-padron" required></textarea> 
+
+                  <img class="centro-mesa" src="img/centro-mesa.jpg">
+                    <p class="motivacion">La vida está llena de momentos dignos de celebración. Cada evento es una oportunidad para crear recuerdos que perdurarán toda la vida. ¡Acompáñanos en la emocionante aventura de celebrar juntos momentos inolvidables!</p>
+            </form>
+        </main>
+        
+    </body>
 </html>
