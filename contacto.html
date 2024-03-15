@@ -24,12 +24,13 @@
         <main>
             <section class="servicios">
 
+                <img class="logoServicios" src="img/logo2.png">
                 <h3 class="titulo-general">Servicios disponibles</h3>
                 <div>
                     <ul class="servicios-lista">
                         <li>
                             <h2>Disco móvil</h2>
-                            <img class="imagenes-servicios" src="img/dj.jpg">
+                            <img class="imagenes-servicios" src="img/DJMesa.jpg">
                             <p class="paquete-descripcion">Ofrecemos distintos paquetes para una boda inolvidable</p>
                             <button onclick="agregarServicio('Disco móvil', this)" class="agregar" id="add-dj">Añadir servicio</button>
                             <button onclick="removerServicio('Disco móvil', this)" class="remover" id="remove-dj" style="display: none;">Remover servicio</button>
@@ -39,7 +40,7 @@
                         
                         <li>
                             <h2>Maestro de ceremonias</h2>
-                            <img class="imagenes-servicios" src="img/mc.jpeg">
+                            <img class="imagenes-servicios" src="img/MaestroBoda.jpg">
                             <p class="paquete-descripcion">Ofrecemos mas de 2 paquetes para aquellas celebraciones especiales</p>
                             <button onclick="agregarServicio('Maestro de ceremonias', this)" class="agregar" id="add-mc">Añadir servicio</button>
                             <button onclick="removerServicio('Maestro de ceremonias', this)" class="remover" id="remove-mc" style="display: none;">Remover servicio</button>
@@ -47,7 +48,7 @@
                         </li>
                         <li>
                             <h2>Decoración</h2>
-                            <img class="imagenes-servicios" src="img/decoracion.jpg">
+                            <img class="imagenes-servicios" src="img/DecoracionMesa.jpg">
                             <p class="paquete-descripcion">Ofrecemos paquetes para celebrar aquellos logros alcanzados</p>
                             <button onclick="agregarServicio('Decoración', this)" class="agregar" id="add-decoracion">Añadir servicio</button>
                             <button onclick="removerServicio('Decoración', this)" class="remover" id="remove-decoracion" style="display: none;">Remover servicio</button>
@@ -56,7 +57,7 @@
 
                         <li>
                             <h2>Sillas</h2>
-                            <img class="imagenes-servicios" src="img/sillas.jpeg">
+                            <img class="imagenes-servicios" src="img/SillaDecorada.jpg">
                             <p class="paquete-descripcion">Ofrecemos paquetes para celebrar aquellos logros alcanzados</p>
                             <button onclick="agregarServicio('Sillas', this)" class="agregar" id="add-sillas">Añadir servicio</button>
                             <button onclick="removerServicio('Sillas', this)" class="remover" id="remove-sillas" style="display: none;">Remover servicio</button>
@@ -65,7 +66,7 @@
 
                         <li>
                             <h2>Comparsa</h2>
-                            <img class="imagenes-servicios" src="img/Comparsa.jpeg">
+                            <img class="imagenes-servicios" src="img/ComparsaNeon.jpg">
                             <p class="paquete-descripcion">Ofrecemos paquetes para celebrar aquellos logros alcanzados</p>
                             <button onclick="agregarServicio('Comparsa', this)" class="agregar" id="add-comparsa">Añadir servicio</button>
                             <button onclick="removerServicio('Comparsa', this)" class="remover" id="remove-comparsa" style="display: none;">Remover servicio</button>
@@ -75,7 +76,7 @@
 
                         <li>
                             <h2>Photobooth</h2>
-                            <img class="imagenes-servicios" src="img/photobooth.png">
+                            <img class="imagenes-servicios" src="img/photobooth360.jpg">
                             <p class="paquete-descripcion">Ofrecemos paquetes para celebrar aquellos logros alcanzados</p>
                             <button onclick="agregarServicio('Photobooth', this)" class="agregar" id="add-photobooth">Añadir servicio</button>
                             <button onclick="removerServicio('Photobooth', this)" class="remover" id="remove-Photobooth" style="display: none;">Remover servicio</button>
@@ -104,6 +105,10 @@
                 
                   <label for="mensaje">Mensaje</label>
                   <textarea cols="70" rows="10" id="mensaje"class="input-padron" required></textarea> 
+
+                  <button class="enviar"><span>Enviar paquete</span></button>
+
+                  
 
                   <div class="imagen-container">
                     <img class="centro-mesa" src="img/centro-mesa.jpg">
